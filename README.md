@@ -1,5 +1,5 @@
-# Smali-Ruby
-A more ruby like way to work with Smali files in JRuby.
+# Smali-JRuby
+A more ruby like way to work with Smali files in JRuby. Inspired by whitequark's [ast] for ruby.
 
 ### Usage Notes
 The examples show how it can be used. Nodes are suppose to be immutable. Using the [Smali] ANTLR classes directly has advantages.
@@ -18,3 +18,4 @@ You must have the [Smali] jar file in your project.
   - Package as a gem
 
 [Smali]:https://bitbucket.org/JesusFreke/smali/downloads
+[ast]:https://github.com/whitequark/ast/
